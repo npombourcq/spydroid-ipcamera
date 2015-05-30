@@ -11,9 +11,11 @@ apply plugin: 'android'
 
 repositories {
     jcenter()
+    mavenLocal()
 }
 
 dependencies {
+    compile 'net.majorkernelpanic:libstreaming:4.0-SNAPSHOT'
     compile 'com.android.support:support-v4:22.2.0'
     compile 'ch.acra:acra:4.4.0'
     compile 'com.madgag:scpg-jdk15on:1.47.0.2'
